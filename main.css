@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.containerMain{
+  height: 500px;
+  width: 500px;
+  margin: 2% auto;
+  background-color: rgb(66, 165, 66);
+
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear{
+  flex: 1;
+  height: 100%;
+}
+
+.display{
+  flex: 3;
+}
+
+.clearAndDisplay{
+  height: 20%;
+  border: 1px solid white; 
+}
+
+.numsAndOperators{
+  height: 80%;
+}
+
+.numsAndOperators div{
+  flex-basis: 25%;
+  height: 100px;
+}
+
+button{
+ height: 100%;
+ width: 100%;
+ background-color: rgb(66, 165, 66);
+ color: white;
+ font-size: 25px;
+ /* border: 1px solid white; */
+}
+
+button:hover{
+  background-color: blue;
+}
+
+
